@@ -92,7 +92,7 @@ function onload() {
                 requestAnimationFrame(ghostimgAnimations);
                 
                 if (frame%2) {
-                        document.getElementById("gLr1").innerHTML = '<img name="g_i1" src="Pictures/g12.png">';
+                        document.getElementsByName('gLr1').src = redGhostImages[0];
                         document.getElementById("gLr2").innerHTML = '<img name="g_i1" src="Pictures/g22.png">';
                         document.getElementById("gLr3").innerHTML = '<img name="g_i1" src="Pictures/g32.png">';
                         document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g42.png">';
