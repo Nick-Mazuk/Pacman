@@ -7,7 +7,7 @@ function onload() {
         var orangeGhostImages = [];
         var pinkGhostImages = [];
         var PacImg = [];
-        var frame = 0;
+        var ghostframe = 0;
 
         function preLoad() {
                 
@@ -89,7 +89,6 @@ function onload() {
         if (document.images) preLoad();
         
         function ghostimgAnimations {
-                requestAnimationFrame(ghostimgAnimations);
                 
                 if (frame%2) {
                         document.getElementsByName('gLr1').src = "Pictures/g12.png";
@@ -103,7 +102,7 @@ function onload() {
                         document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g41.png">';
                 }
                 
-                frame++;
+                ghostframe++;
         }
-        ghostimgAnimations();
+        window.setTimeout(ghostimgAnimations(), 1000);
 };
