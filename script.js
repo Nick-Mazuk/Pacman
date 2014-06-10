@@ -1,13 +1,13 @@
-var redGhostImages = [];
-var blueGhostImages = [];
-var orangeGhostImages = [];
-var pinkGhostImages = [];
-var PacImg = [];
-var frame = 0;
-
-function onLoad() {
+function onload() {
 
         // pre-loading
+        
+        var redGhostImages = [];
+        var blueGhostImages = [];
+        var orangeGhostImages = [];
+        var pinkGhostImages = [];
+        var PacImg = [];
+        var frame = 0;
 
         function preLoad() {
                 
