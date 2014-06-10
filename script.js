@@ -103,5 +103,5 @@ function onLoad() {
                         document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g41.png">';
                 }
         }
-         ghostimgAnimations();
-}
+        ghostimgAnimations();
+};
