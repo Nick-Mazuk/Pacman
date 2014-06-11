@@ -104,5 +104,6 @@ function onload() {
                 
                 ghostframe++;
         }
-        window.setTimeout(ghostimgAnimations(), 1000);
+        //window.setTimeout(ghostimgAnimations(), 1000);
+        ghostimgAnimations();
 };
