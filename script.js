@@ -90,7 +90,7 @@ function onload() {
         
         function ghostimgAnimations {
                 
-                if (!frame%2) {
+                if (frame%2) {
                         document.getElementsByName('g_i1').src = "Pictures/g12.png";
                         document.getElementById("gLr2").innerHTML = '<img name="g_i1" src="Pictures/g22.png">';
                         document.getElementById("gLr3").innerHTML = '<img name="g_i1" src="Pictures/g32.png">';
