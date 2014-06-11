@@ -89,8 +89,8 @@ function onload() {
         if (document.images) preLoad();
         
         function ghostimgAnimations {
-                document.getElementById('redGhost').src = "Pictures/g12.png";
-                /*if (ghostframe%2==0) {
+                
+                if (ghostframe%2==0) {
                         document.getElementById('redGhost').src = "Pictures/g12.png";
                         //document.getElementById("gLr2").innerHTML = '<img name="g_i1" src="Pictures/g22.png">';
                         //document.getElementById("gLr3").innerHTML = '<img name="g_i1" src="Pictures/g32.png">';
@@ -102,7 +102,7 @@ function onload() {
                         //document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g41.png">';
                 }
                 
-                ghostframe++;*/
+                ghostframe++;
         }
         //window.setTimeout(ghostimgAnimations(), 1000);
         ghostimgAnimations();
