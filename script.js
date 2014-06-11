@@ -91,12 +91,12 @@ function onload() {
         function ghostimgAnimations {
                 
                 if (ghostframe%2==0) {
-                        document.getElementsByName('g_i1').src = "Pictures/g12.png";
+                        document.getElementById('redGhost').src = "Pictures/g12.png";
                         //document.getElementById("gLr2").innerHTML = '<img name="g_i1" src="Pictures/g22.png">';
                         //document.getElementById("gLr3").innerHTML = '<img name="g_i1" src="Pictures/g32.png">';
                         //document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g42.png">';
                 } else {
-                        document.getElementsByName('g_i1').src = "Pictures/g11.png";
+                        document.getElementById('redGhost').src = "Pictures/g11.png";
                         //document.getElementById("gLr2").innerHTML = '<img name="g_i1" src="Pictures/g21.png">';
                         //document.getElementById("gLr3").innerHTML = '<img name="g_i1" src="Pictures/g31.png">';
                         //document.getElementById("gLr4").innerHTML = '<img name="g_i1" src="Pictures/g41.png">';
